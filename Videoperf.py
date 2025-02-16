@@ -6,8 +6,8 @@ import pandas as pd
 st.title('YouTube Video Performance Comparison Tool')
 
 # Inputs for API Key and Channel ID
-api_key = st.text_input('AIzaSyD1yebvf2bpu0A9E6v4w5MhRzGGmaSG7Io')
-channel_id = st.text_input('https://www.youtube.com/@CatsCorneryt1')
+api_key = st.text_input('Enter your YouTube API Key:')
+channel_id = st.text_input('Enter the YouTube Channel ID:')
 
 # Function to fetch videos
 def get_videos(api_key, channel_id):
